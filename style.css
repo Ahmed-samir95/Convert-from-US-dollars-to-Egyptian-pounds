@@ -5,3 +5,35 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header h2{
+  color: #344955;
+  margin-bottom: 16px;
+}
+
+form input{
+ padding: 20px;
+ width: 300px;
+ margin-bottom: 10px;
+}
+
+form .result {
+  font-size: 30px;
+}
+
+.result .usa{
+  color: #78A083;
+}
+
+.result .egy{
+  color: #50727B;
+}
+
+
